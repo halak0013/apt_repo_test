@@ -1,0 +1,16 @@
+Package: holy-quran
+Version: 1.5.1
+Architecture: all
+Maintainer: Muhammet Halak <halakmuhammet145@gmail.com>
+Installed-Size: 2199
+Depends: python3-gi, python3-pygame, python3:any
+Filename: pool/main/holy-quran_1.5.1_all.deb
+Size: 403656
+MD5sum: c57dd0691eda948bc208b38fff145e4a
+SHA1: 1d5b5d03b61137455dc8c9796f110165a4de6394
+SHA256: fd51eaaaac43cc332077f9429d8fef1577ecb9ac2a15e87f021ef6f54c8b8a41
+Section: x11
+Priority: optional
+Homepage: https://github.com/halak0013/Kuran-I_Kerim_app
+Description: It is Holy Quran app.
+
