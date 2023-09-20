@@ -28,3 +28,7 @@ EOF
 do_hash "MD5Sum" "md5sum"
 do_hash "SHA1" "sha1sum"
 do_hash "SHA256" "sha256sum"
+
+cat ~/projelerimiz2/yazilim/bash/apt_repo_test/apt-repo/dists/stable/Release | gpg --default-key "Muhammet Halak" -abs --clearsign > ~/projelerimiz2/yazilim/bash/apt_repo_test/dists/stable/InRelease
+
+cat ~/projelerimiz2/yazilim/bash/apt_repo_test/dists/stable/Release | gpg --default-key "Muhammet Halak" -abs > ~/projelerimiz2/yazilim/bash/apt_repo_test/dists/stable/Release.gpg
